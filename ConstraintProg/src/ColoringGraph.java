@@ -48,7 +48,7 @@ public class ColoringGraph{
 		System.out.println("X3="+couleurs[s.getVar(x3).getVal()]);
 		System.out.println("X4="+couleurs[s.getVar(x4).getVal()]);
 		System.out.println();
-		} while(s.nextSolution());
+		} while(s.nextSolution()); //Tous les résultats possibles
 
 	}
 
